@@ -95,8 +95,9 @@ const FormContainer = () => {
             name="department"
             required
             className="form-select w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 bg-white"
+            defaultValue=""
           >
-            <option value="" disabled selected>Select your department</option>
+            <option value="" disabled>Select your department</option>
             <option value="HR">HR</option>
             <option value="Sales">Sales</option>
             <option value="Development">Development</option>
@@ -149,7 +150,7 @@ const FormContainer = () => {
         <div className="pt-4">
           <button
             type="submit"
-            className="w-full bg-purple-600 text-white py-2 px-4 rounded-md hover:bg-purple-700 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition-colors duration-300 font-medium"
+            className="w-full bg-purple-600 text-white py-2 px-4 rounded-md hover:bg-purple-700 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition-all duration-300 font-medium transform hover:scale-[1.02]"
           >
             Submit
           </button>
