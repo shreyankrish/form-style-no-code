@@ -149,7 +149,7 @@ const FormContainer = () => {
         <div className="pt-4">
           <button
             type="submit"
-            className="w-full bg-purple-600 text-white py-2 px-4 rounded-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition-colors duration-300 font-medium"
+            className="w-full bg-purple-600 text-white py-2 px-4 rounded-md hover:bg-purple-700 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition-colors duration-300 font-medium"
           >
             Submit
           </button>
